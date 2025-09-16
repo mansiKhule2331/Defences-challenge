@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Job Application:Senior Web Developer</h1>
+        <p>Thank you for your interest in joining our team.Please fill out the application below.</p>
+        <hr></hr>
+        <h2>Personal Information</h2>
+        <label for="FullName">Full Name:</label><br>
+    <input type="text" name="name"><br>  
+    <label for="email">Email:</label><br>
+    <input type="email" name="email"> <br>
+    <label for="phone">Phone:</label><br>
+    <input type="number" name="phone">   <br> 
+    <label for="other">LinkedIn Profile URL:</label><br>
+    <input type="link" name="LinkedIn" placeholder="https://www.LinkedIn.com/in/yourprofile"> <br>
+    <hr></hr>
+    <h2>Professional Experience</h2><br>
+    <p>Upload Your Resume(PDF or DOCX):</p><br>
+    <input type="file" name="file"><br><br>
+    <label for="Cover Letter">Cover Letter</label><br>
+    <textarea type="Address" name="Cover Letter" rows="4" cols="50" placeholder="Write your cover letter here...."></textarea><br>
+    <label for="Year of Experience">Year of Experience:</label><br>
+    <input type="number" name="Experience" min="0" max="50"><br>
+    <label for="Start Date">Earliest Possible start Date:</label><br>
+    <input type="date" name="Start date"><br>
+    <hr></hr>
+    <h2>Skills & Availability</h2><br>
+    <label for="Skills">Primary SkillSet(Choose One):</label><br>
+    <input type="radio" name="Skills" values="Frontend Developer">Frontend Developer<br>
+    <input type="radio" name="Skills" values="Backend Developer">Backend Developer<br>
+    <input type="radio" name="Skills" values="Full Stack Developer">Full Stack Developer<br>
+    <p>Additional Skills (Select all that apply):</p>
+    <input type="checkbox" name="Skills" values="React">React<br>
+     <input type="checkbox" name="Skills" values="Node.js">Node.js<br>
+      <input type="checkbox" name="Skills" values="Database Management">Database Management<br>
+       <input type="checkbox" name="Skills" values="Cloud/DevOps">Cloud/DevOps<br>
+       <label for="Work Type">Preferred Work Type:</label><br>
+       <select name="Work Type" id="Work Type">
+        <option value="fulltime">Full Time</option>
+        <option value="Part-time">Part time</option>
+        <option value="remote">Remote</option>
+        <option value="Hybrid">Hybrid</option>
+       </select><br>
+       <hr></hr>
+       <h2>Final Infromation</h2>
+       <input type="checkbox" name="Decalaration" value="agree">I am legally authorized to work in this Country.<br>
+       <p>How did you hear about us?</p>
+       <input type="text" name="refer"><br><br>
+    <button>Sumbit Application</button>
+    <button>Clear form </button>
+</form>
+</body>
+</html>
