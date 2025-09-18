@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gym Website - Contact</title>
+  <title>Contact Us</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>Have questions? Reach out to us:</p>
+  <h1>Contact Us</h1>
 
-    <form>
-        <label>Name:</label>
-        <input type="text" name="name"><br><br>
+  <h2>Why Have a Contact Page?</h2>
+  <p>
+    A <b>Contact Us</b> page allows visitors to get in touch with the website owner 
+    or organization. It can include a form, email address, phone number, or even a map. 
+    This page is very important for feedback, queries, and support.
+  </p>
 
-        <label>Email:</label>
-        <input type="email" name="email"><br><br>
+  <h3>Common Elements in a Contact Page:</h3>
+  <ul>
+    <li>A simple <b>form</b> to collect user queries.</li>
+    <li><b>Email address</b> for direct communication.</li>
+    <li><b>Phone number</b> for urgent contact.</li>
+    <li><b>Address</b> or Google Maps iframe for location.</li>
+  </ul>
 
-        <label>Message:</label><br>
-        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+  <hr>
 
-        <input type="submit" value="Send">
-    </form>
+  <h2>Contact Form</h2>
+  <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
 
-    <nav>
-        <a href="HomeWork5.html">Home</a> |
-        <a href="diet.html">Diet Info</a> |
-        <a href="exercise.html">Exercise</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Send Message">
+    <input type="reset" value="Clear">
+  </form>
+
+  <hr>
+
+  <h2> Other Contact Details</h2>
+  <p><b>Email:</b> support@example.com</p>
+  <p><b>Phone:</b> +91 98765 43210</p>
+  <p><b>Address:</b> 123 Web Street, Tech City, India</p>
+
+  
+
+  <br><br>
+  <a href="index.html">Back to Home</a>
 </body>
 </html>

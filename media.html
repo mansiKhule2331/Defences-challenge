@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Media</title>
+</head>
+<body>
+  <h1>HTML Media Tags</h1>
+
+  <h2>What is Media in HTML?</h2>
+  <p>
+    Media elements in HTML allow you to add <b>audio</b>, <b>video</b>, and 
+    <b>external media</b> (like YouTube videos) to your web pages. 
+    These make websites more interactive and engaging.
+  </p>
+
+  <h3>Important Media Tags:</h3>
+  <ul>
+    <li><b>&lt;audio&gt;</b> → Used to embed sound content like music or podcasts.</li>
+    <li><b>&lt;video&gt;</b> → Used to embed video content like MP4, WebM, or Ogg.</li>
+    <li><b>&lt;source&gt;</b> → Defines multiple media formats for compatibility.</li>
+    <li><b>&lt;iframe&gt;</b> → Used to embed YouTube videos or other webpages.</li>
+  </ul>
+
+  <h3>Common Attributes:</h3>
+  <ul>
+    <li><b>controls</b> → Adds play, pause, and volume controls.</li>
+    <li><b>autoplay</b> → Automatically plays the media (not always recommended).</li>
+    <li><b>loop</b> → Repeats the media after it ends.</li>
+    <li><b>muted</b> → Starts media without sound.</li>
+    <li><b>allowfullscreen</b> → Allows full screen for embedded videos.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Audio Example</h2>
+  <audio controls>
+    <source src="images/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <h2>Video Example</h2>
+  <video width="320" height="240" controls>
+    <source src="images/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>YouTube Video Example</h2>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/NGYp1zCBthk"
+    frameborder="0" allowfullscreen>
+  </iframe>
+
+  <br><br>
+  <a href="index.html">Back to Home</a>
+</body>
+</html>
